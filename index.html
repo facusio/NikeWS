@@ -1,89 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike - Just Do It</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main">
-        <nav class="nav">
-            <div class="nav-part-1">
-                <img src="images/nike-logo-0.png" alt="Nike logo" class="logo">
-                <ul class="nav-menu">
-                    <li><a href="#home">New & Featured</a></li>
-                    <li><a href="#men">Men</a></li>
-                    <li><a href="#women">Women</a></li>
-                    <li><a href="#kids">Kids</a></li>
-                    <li><a href="#collection">Collections</a></li>
-                </ul>
-            </div>
-            <div class="nav-part-2">
-                <i class="ri-search-line" id="search-icon"></i>
-                <i class="ri-shopping-bag-line" id="cart-icon"></i>
-                <i class="ri-menu-line" id="menu-icon"></i>
-            </div>
-        </nav>
+      <nav class="nav">
+        <div class="nav-part-1">
+          <svg class="nike-logo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#fff"
+              d="M24 7.8L6.442 15.276q-2.184.925-3.668.925q-1.68 0-2.437-1.177q-.475-.756-.28-1.918q.196-1.162 1.036-2.478q.7-1.065 2.297-2.8a6.1 6.1 0 0 0-.784 1.848q-.42 1.792.756 2.632q.56.392 1.54.392q.783 0 1.764-.252z"
+            />
+          </svg>
+          <ul class="nav-menu">
+            <li><a href="#home">New & Featured</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#kids">Kids</a></li>
+            <li><a href="#collection">Collections</a></li>
+          </ul>
+        </div>
+        <div class="nav-part-2">
+          <i class="ri-search-line" id="search-icon"></i>
+          <i class="ri-shopping-bag-line" id="cart-icon"></i>
+          <i class="ri-menu-line" id="menu-icon"></i>
+        </div>
+      </nav>
 
-        <header class="hero">
-            <div class="hero-content">
-                <h1>NIKE AIR MAX</h1>
-                <p>Featuring the Air Max 2090, inspired by the future of transportation.</p>
-                <button class="btn" id="shop-now">Shop Now</button>
-            </div>
-        </header>
+      <header class="hero">
+        <div class="hero-content">
+          <h1>NIKE AIR MAX</h1>
+          <p>
+            Featuring the Air Max 2090, inspired by the future of
+            transportation.
+          </p>
+          <button class="btn" id="shop-now">Shop Now</button>
+        </div>
+      </header>
 
-        <section class="featured-products">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <div class="product">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg" alt="Nike React Infinity Run">
-                    <h4>Nike React Infinity Run</h4>
-                    <p class="category">Men's Running Shoe</p>
-                    <p class="price">$160</p>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-                <div class="product">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-33b0a0a5-c171-46cc-ad20-04a768703e47/air-zoom-pegasus-37-womens-running-shoe-Jl0bDf.jpg" alt="Nike Air Zoom Pegasus 37">
-                    <h4>Nike Air Zoom Pegasus 37</h4>
-                    <p class="category">Women's Running Shoe</p>
-                    <p class="price">$120</p>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-                <div class="product">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8439f823-86cf-4086-81d2-4f9ff9a66866/air-max-90-mens-shoe-Zj7sqD.jpg" alt="Nike Air Max 90">
-                    <h4>Nike Air Max 90</h4>
-                    <p class="category">Men's Shoe</p>
-                    <p class="price">$130</p>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-                <div class="product">
-                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/99486859-0ff3-46b4-949b-2d16af2ad421/blazer-mid-77-vintage-mens-shoe-nw30B2.jpg" alt="Nike Blazer Mid '77 Vintage">
-                    <h4>Nike Blazer Mid '77 Vintage</h4>
-                    <p class="category">Men's Shoe</p>
-                    <p class="price">$100</p>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-            </div>
-        </section>
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <div class="product">
+            <img
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-665455a5-45de-40fb-945f-c1852b82400d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
+              alt="Nike React Infinity Run"
+            />
+            <h4>Nike React Infinity Run</h4>
+            <p class="category">Men's Running Shoe</p>
+            <p class="price">$160</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-33b0a0a5-c171-46cc-ad20-04a768703e47/air-zoom-pegasus-37-womens-running-shoe-Jl0bDf.jpg"
+              alt="Nike Air Zoom Pegasus 37"
+            />
+            <h4>Nike Air Zoom Pegasus 37</h4>
+            <p class="category">Women's Running Shoe</p>
+            <p class="price">$120</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8439f823-86cf-4086-81d2-4f9ff9a66866/air-max-90-mens-shoe-Zj7sqD.jpg"
+              alt="Nike Air Max 90"
+            />
+            <h4>Nike Air Max 90</h4>
+            <p class="category">Men's Shoe</p>
+            <p class="price">$130</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/99486859-0ff3-46b4-949b-2d16af2ad421/blazer-mid-77-vintage-mens-shoe-nw30B2.jpg"
+              alt="Nike Blazer Mid '77 Vintage"
+            />
+            <h4>Nike Blazer Mid '77 Vintage</h4>
+            <p class="category">Men's Shoe</p>
+            <p class="price">$100</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div id="cart" class="cart">
-        <h2>Your Cart</h2>
-        <div id="cart-items"></div>
-        <div id="cart-total">Total: $0</div>
-        <button id="checkout">Checkout</button>
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total">Total: $0</div>
+      <button id="checkout">Checkout</button>
     </div>
 
     <div id="search-overlay" class="search-overlay">
-        <input type="text" id="search-input" placeholder="Search for products...">
-        <button id="close-search">Close</button>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search for products..."
+      />
+      <button id="close-search">Close</button>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
