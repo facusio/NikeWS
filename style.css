@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 200px;
+  padding: 0 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -249,9 +249,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .nav-menu {
-    display: none;
-  }
 
   #menu-icon {
     display: block;
